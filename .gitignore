@@ -1,0 +1,21 @@
+# LaTeX build files
+*.txt
+*.synctex
+# *.pdf
+*.aux
+*.log
+*.tps
+*.toc
+*.bbl
+*.blg
+*.tcp
+*.tmp
+*.out
+*.fdb_latexmk
+*.fls
+*.nav
+*.snm
+*.bcf
+*.lof
+*.run
+*.xml

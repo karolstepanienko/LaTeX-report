@@ -34,6 +34,13 @@
 \fi
 
 %---------------------
+% Silencing warnings
+%---------------------
+\RequirePackage{silence} % \usepackage is not allowerd before \documentclass
+% mwart class used here is not supported by package caption so it is safe to remove warning
+\WarningFilter{caption}{Unknown document class (or package)}
+
+%---------------------
 % Basic dependencies
 %---------------------
 \RequirePackage{amsmath}       % Basic mathematical typesetting

@@ -63,6 +63,8 @@
 \RequirePackage{tocloft}       % Custom ToC/LoF/LoT
 \RequirePackage{url}           % URL-sensitive line breaks
 \RequirePackage{xspace}        % Remove duplicated spaces
+\RequirePackage{siunitx}       % \num and tables
+\sisetup{detect-weight,exponent-product=\cdot,output-decimal-marker={,},per-mode=symbol,binary-units=true,range-phrase={-},range-units=single}
 
 %----------------------------
 % Parametrized dependencies
